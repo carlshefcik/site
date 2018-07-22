@@ -1,17 +1,15 @@
 <template>
   <div class="about">
     <div class="holder">
-      <h1>About me: </h1>
-      <p>I'm currently studying at SJSU as a Software Engineer</p>
-      <h3>Links:</h3>
-      <p>Linked in</p>
+      <h1>This is a collection of works </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali...</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'Main',
   data() {
     return{
     }
@@ -23,4 +21,4 @@ export default {
   .holder {
     background: rgb(255, 255, 255);
   }
-</style> 
+</style>

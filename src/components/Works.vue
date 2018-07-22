@@ -1,17 +1,18 @@
 <template>
   <div class="about">
     <div class="holder">
-      <h1>About me: </h1>
-      <p>I'm currently studying at SJSU as a Software Engineer</p>
-      <h3>Links:</h3>
-      <p>Linked in</p>
+      <h1>This is a collection of works </h1>
+      <h3>Projects: </h3>
+      <p>A list of projects</p>
+      <h3>Acomplishments: </h3>
+      <p>A list of acomplishments</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'Works',
   data() {
     return{
     }
