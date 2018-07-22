@@ -1,8 +1,8 @@
 <template>
   <div class="about">
     <div class="holder">
-      <h1>This is a collection of works </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali...</p>
+      <h1>Create creazy amazing animations on this page using anime.js</h1>
+      <p>Like really fucking absurd</p>
     </div>
   </div>
 </template>
