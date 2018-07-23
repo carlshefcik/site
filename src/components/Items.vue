@@ -2,7 +2,7 @@
   <div class="Items">
     <div class="holder">
 
-      <form @submit.prevent="addSkill">
+      <form @submit.prevent="addItem">
         <input type="text" placeholder="Enter an item you have.." v-model="item" v-validate="'min:5'" name="item">
         
         <transition name="alert-in" enter-active-class="animated flipInX" leave-active-class="animated flipOutX">
@@ -37,7 +37,7 @@ export default {
     }
   },
   methods: {
-    addSkill() {
+    addItem() {
       this.$validator.validateAll().then((result) => {
         if (result) {
           this.items.push({item: this.item})
