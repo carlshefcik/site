@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div>This website is a Work in progress</div>
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/items">Items</router-link>
